@@ -11,13 +11,13 @@ This project is my implementation for a point-of-sale application I call "Rent-A
 
 If you'd like to use this application, you will need to run the Main.class file (located in the rentatool.app package) as a Java Application.  
 
-The Rent-A-Tool application will first print out all the tools available for rental for your reference. Then, you will be greeted with message welcoming you as a Rent-A-Tool associate.  
+The Rent-A-Tool application will first print out all the tools available for rental for your reference. Then, you will be greeted with a message welcoming you as a Rent-A-Tool associate.  
 
 ### Prompts
 
 The Rent-A-Tool application will prompt you with the following:  
 
-1. Would you like to return a tool?  
+1. "Would you like to return a tool?"  
     **Note:** *Valid responses include: Yes, yes, Y, y, No, no, N, n*  
     
    If **yes**:  
@@ -28,7 +28,7 @@ The Rent-A-Tool application will prompt you with the following:
    * presents you with a thank you message
    * prompts you to enter the information of the tool you want to checkout.  
     
-2. Please provide the following information to process a tool rental  
+2. "Please provide the following information to process a tool rental"  
     Prompts you for:  
     * Tool Code
         Prints friendly try again message if code is invalid or checked out 
@@ -43,7 +43,7 @@ The Rent-A-Tool application will prompt you with the following:
             
 3. Generates and prints out a Rental Agreement  
 
-4. Would you like to process another tool?  
+4. "Would you like to process another tool?"  
     **Note:** *Valid responses include: Yes, yes, Y, y, No, no, N, n*  
     
    If **yes**, the application repeats from prompt 1.  
