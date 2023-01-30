@@ -40,19 +40,16 @@ The Rent-A-Tool application will prompt you with the following:
     * Discount percent
         * Prints friendly try again message if input is not a number
         * Throws InvalidCheckoutArgumentException if not in the range [0, 100]
-    * Checkout date
+   * Checkout date
         Prints friendly try again message if date is not in MM/dd/yy format  
         **Note:** *M/d/yy is also considered valid*  
             
 3. Generates and prints out a Rental Agreement  
 
-4. Would you like to process another tool?  
-
-    **Note:** *Valid responses include: Yes, yes, Y, y, No, no, N, n*  
-    
-        If **yes**, the application repeats from prompt 1.  
-    
-        If **no**, Rent-A-Tool presents you with a thank you message and terminates.  
+4. Would you like to process another tool?
+    **Note:** *Valid responses include: Yes, yes, Y, y, No, no, N, n*
+   If **yes**, the application repeats from prompt 1.     
+   If **no**, Rent-A-Tool presents you with a thank you message and terminates.  
 
 ## Implementation
 
