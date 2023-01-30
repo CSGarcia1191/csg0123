@@ -64,7 +64,9 @@ By default, the application uses an SQLiteDB instance for storing its tools. The
 creates an SQLite database called "rentatool.db" by leveraging the [SQLite JDBC version 3.40](https://github.com/xerial/sqlite-jdbc).  
 A portable jar file of this SQLite JDBC has been included under this project's lib folder.  
 
-The HashMapStorage class implements StorageSystem and uses a HashMap<ToolEnums.Code, Tool> object to store tools in. HashMapStorage was implemented to showcase Rent-A-Tool's ability to integrate with different types of StorageSystems.  
+The HashMapStorage class implements StorageSystem and uses a HashMap<ToolEnums.Code, Tool>  
+object to store tools in. HashMapStorage was implemented to showcase Rent-A-Tool's ability to  
+integrate with different types of StorageSystems.  
 
 ## Tests
 
