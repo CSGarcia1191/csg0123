@@ -40,22 +40,14 @@ The Rent-A-Tool application will prompt you with the following:
     Prompts you for:  
 
         * Tool Code
-        
             Prints friendly try again message if code is invalid or checked out 
-        
         * Rental day count
-        
             Prints friendly try again message if number is invalid  
-        
         * Discount percent
-        
             * Prints friendly try again message if input is not a number
             * Throws InvalidCheckoutArgumentException if not in the range [0, 100]
-        
         * Checkout date
-        
             Prints friendly try again message if date is not in MM/dd/yy format  
-            
             **Note:** *M/d/yy is also considered valid*  
             
 3. Generates and prints out a Rental Agreement  
