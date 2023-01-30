@@ -104,4 +104,4 @@ There are 4 TestSuites located under the **rentatool.app** package:
 * JUnitRentalAgreementTest.java contains 51 test cases for the RentalAgremeent class
 
     **Note:** *Each TestSuite file's naming convention is to start with "JUnit" and end in "Tests.java".*  
-    ***JUnit<nameOfClassBeingTestedHere>Tests.java***  
+    Convention: `JUnit<nameOfClassBeingTestedHere>Tests.java`  
