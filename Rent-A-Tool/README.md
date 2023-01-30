@@ -1,6 +1,7 @@
 
+### by CSGarcia1191
+
 # Rent-A-Tool Application
-#### By CSGarcia1191
 
 ## Introduction
 
@@ -21,7 +22,7 @@ Rent-A-Tool associate.
 
 The Rent-A-Tool application will prompt you with the following:  
 
-1. Would you like to return a tool?  
+1. Would you like to return a tool?
     **Note:** *Valid responses include: Yes, yes, Y, y, No, no, N, n*
     
    If **yes**:
@@ -70,9 +71,9 @@ child classes called SQLiteDB and HashMapStorage.  All StorageSystems must imple
 operations defined by CrudOps.java (at a minimum) in order to function with the Rent-A-Tool app.  
 
 By default, the application uses an SQLiteDB instance for storing its tools. The SQLiteDB class  
-creates an SQLite database called "rentatool.db" by leveraging the [SQLite JDBC version 3.40  
-(by the Xerial project)](https://github.com/xerial/sqlite-jdbc). A portable jar file of this
-SQLite JDBC has been included under this project's lib folder.  
+creates an SQLite database called "rentatool.db" by leveraging the  
+[SQLite JDBC version 3.40 (by the Xerial project)](https://github.com/xerial/sqlite-jdbc). A portable  
+jar file of this SQLite JDBC has been included under this project's lib folder.  
 
 The HashMapStorage class implements StorageSystem and uses a HashMap<ToolEnums.Code, Tool> object  
 to store tools in. HashMapStorage was implemented to showcase Rent-A-Tool's ability to  
