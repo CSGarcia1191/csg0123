@@ -18,12 +18,12 @@ The Rent-A-Tool application will first print out all the tools available for ren
 The Rent-A-Tool application will prompt you with the following:  
 
 1. Would you like to return a tool?  
-    **Note:** *Valid responses include: Yes, yes, Y, y, No, no, N, n*
+    **Note:** *Valid responses include: Yes, yes, Y, y, No, no, N, n*  
     
-   If **yes**:
+   If **yes**:  
    * prompts you to enter the Tool Code of the tool you want to return.
    * prompts you if you'd like to return another tool.
-   If **no**:
+   If **no**:  
    * presents you with a thank you message
    * prompts you to enter the information of the tool you want to checkout.
     
