@@ -56,9 +56,9 @@ The Rent-A-Tool application will prompt you with the following:
 
     **Note:** *Valid responses include: Yes, yes, Y, y, No, no, N, n*  
     
-    If **yes**, the application repeats from prompt 1.  
+        If **yes**, the application repeats from prompt 1.  
     
-    If **no**, Rent-A-Tool presents you with a thank you message and terminates.  
+        If **no**, Rent-A-Tool presents you with a thank you message and terminates.  
 
 ## Implementation
 
@@ -93,7 +93,6 @@ There are 4 TestSuites located under the **rentatool.app** package:
 * JUnitBaseTests.java contains 6 minimum base test cases for the application
 * JUnitHashMapStorageTests.java contains 33 test cases for the HashMapStorage class
 * JUnitSQLiteDBTests.java contains 35 test cases for the SQLiteDB class
-* JUnitRentalAgreementTest.java contains 51 test cases for the RentalAgremeent class
-
+* JUnitRentalAgreementTest.java contains 51 test cases for the RentalAgremeent class  
     **Note:** *Each TestSuite file's naming convention is to start with "JUnit" and end in "Tests.java".*  
     Convention: `JUnit<nameOfClassBeingTestedHere>Tests.java`  
