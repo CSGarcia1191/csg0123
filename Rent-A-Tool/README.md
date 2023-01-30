@@ -22,33 +22,27 @@ Rent-A-Tool associate.
 The Rent-A-Tool application will prompt you with the following:  
 
 1. Would you like to return a tool?
-
-    **Note:** *Valid responses include: Yes, yes, Y, y, No, no, N, n*  
+    **Note:** *Valid responses include: Yes, yes, Y, y, No, no, N, n*
     
-    If **yes**:  
-    
-        * prompts you to enter the Tool Code of the tool you want to return.
-        * prompts you if you'd like to return another tool.
-    
-    If **no**:  
-    
-        * presents you with a thank you message
-        * prompts you to enter the information of the tool you want to checkout.
+   If **yes**:
+   * prompts you to enter the Tool Code of the tool you want to return.
+   * prompts you if you'd like to return another tool.
+   If **no**:
+   * presents you with a thank you message
+   * prompts you to enter the information of the tool you want to checkout.
     
 2. Please provide the following information to process a tool rental  
-
     Prompts you for:  
-
-        * Tool Code
-            Prints friendly try again message if code is invalid or checked out 
-        * Rental day count
-            Prints friendly try again message if number is invalid  
-        * Discount percent
-            * Prints friendly try again message if input is not a number
-            * Throws InvalidCheckoutArgumentException if not in the range [0, 100]
-        * Checkout date
-            Prints friendly try again message if date is not in MM/dd/yy format  
-            **Note:** *M/d/yy is also considered valid*  
+    * Tool Code
+        Prints friendly try again message if code is invalid or checked out 
+    * Rental day count
+        Prints friendly try again message if number is invalid  
+    * Discount percent
+        * Prints friendly try again message if input is not a number
+        * Throws InvalidCheckoutArgumentException if not in the range [0, 100]
+    * Checkout date
+        Prints friendly try again message if date is not in MM/dd/yy format  
+        **Note:** *M/d/yy is also considered valid*  
             
 3. Generates and prints out a Rental Agreement  
 
