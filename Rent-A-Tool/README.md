@@ -10,13 +10,13 @@ The application is used to checkout the available tools in the app's Storage sys
 
 ## Usage
 
-If you'd like to use this application, you will need to run the Main.class file
+If you'd like to use this application, you will need to run the Main.class file  
 (located in the rentatool.app package) as a Java Application.  
 
 
 The Rent-A-Tool application will first print out all the tools available for rental  
 for your reference. Then, you will be greeted with message welcoming you as a  
-Rent-A-Tool associate.
+Rent-A-Tool associate.  
 
 ### Prompts
 
