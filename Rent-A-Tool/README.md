@@ -17,7 +17,7 @@ The Rent-A-Tool application will first print out all the tools available for ren
 
 The Rent-A-Tool application will prompt you with the following:  
 
-1. Would you like to return a tool?
+1. Would you like to return a tool?  
     **Note:** *Valid responses include: Yes, yes, Y, y, No, no, N, n*
     
    If **yes**:
@@ -43,7 +43,7 @@ The Rent-A-Tool application will prompt you with the following:
 3. Generates and prints out a Rental Agreement  
 
 4. Would you like to process another tool?  
-    **Note:** *Valid responses include: Yes, yes, Y, y, No, no, N, n*
+    **Note:** *Valid responses include: Yes, yes, Y, y, No, no, N, n*  
     
    If **yes**, the application repeats from prompt 1.  
    If **no**, Rent-A-Tool presents you with a thank you message and terminates.  
