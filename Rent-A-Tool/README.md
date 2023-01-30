@@ -21,7 +21,7 @@ Rent-A-Tool associate.
 
 The Rent-A-Tool application will prompt you with the following:  
 
-1. Would you like to return a tool?
+1. Would you like to return a tool?  
     **Note:** *Valid responses include: Yes, yes, Y, y, No, no, N, n*
     
    If **yes**:
