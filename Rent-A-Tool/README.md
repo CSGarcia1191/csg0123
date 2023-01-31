@@ -21,7 +21,7 @@ The Rent-A-Tool application will prompt you with the following:
     
     - If **yes**:
         * prompts you to enter the Tool Code of the tool you want to return.
-        * prompts you again if you'd like to return tool.
+        * prompts you again if you'd like to return a tool.
     - If **no**:
         * presents you with a thank you message
         * prompts you to enter the information of the tool you want to checkout.
